@@ -1,0 +1,6 @@
+# 计算机视觉基础库
+opencv-python>=4.8.0
+numpy>=1.23.0
+
+# 深度学习框架与模型 (yolov8s, 自带 ByteTrack 追踪器)
+ultralytics>=8.0.0

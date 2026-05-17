@@ -1,0 +1,13 @@
+# 数据集配置文件
+
+# 训练集和验证集图片路径（可以是绝对路径或相对路径）
+train: C:/Users/Moon/Desktop/IndoorPersonLocalization/dataset/images/train
+val: C:/Users/Moon/Desktop/IndoorPersonLocalization/dataset/images/val
+# 如果有测试集，可以加上
+# test: /path/to/your_dataset/images/test
+
+# 类别数量
+nc: 1  # 你的数据集类别总数
+
+# 类别名称（顺序必须与标注文件中的类别 ID 对应）
+names: ['person']
